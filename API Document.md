@@ -8,19 +8,15 @@
 
 *   **Configure.hpp**
     -   class Configure
-<br>
 *   **Logger.hpp**
     -   class LogChannel
     -   static class Logger
-<br>
 *   **Socket.hpp**
     -   class InternetAddress
     -   class Socket
     -   class SocketError
-<br>
 *   **BinaryStream.hpp**
     -   class BinaryStream
-<br>
 *   **Session.hpp**
     -   abstract class Packet extends BinaryStream
     -   class UnknownPacket extends Packet
@@ -29,18 +25,14 @@
     -   class RemoveUserPacket extends Packet
     -   class Session
     -   abstract class SessionHandler
-<br>
 *   **Server.hpp**
     -   class Server
     -   class ServerSessionHandler extends SessionHandler
-<br>
 *   **Client.hpp**
     -   class Client
     -   class ClientSessionHandler extends SessionHandler
-<br>
 *   **Math.hpp**
     -   class Point
-<br>
 *   **Panel.hpp**
     -   class Canvas
     -   class InvisibleCanvas extends Canvas
@@ -50,7 +42,6 @@
     -   class ScrollPanel extends TextPanel
     -   class LogPanel extends ScrollPanel, std::ostream, std::streambuf
     -   class ChatPanel extends ScrollPanel, std::ostream, std::streambuf
-<br>
 *   **ChatWindow.hpp**
     -   class ChatWindow
 
