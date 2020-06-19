@@ -5,6 +5,8 @@
 #include <fstream>
 #include "Configure.hpp"
 
+class Logger;
+
 class LogChannel {
 	const char * const m_logLevel;
 	bool m_enabled;
